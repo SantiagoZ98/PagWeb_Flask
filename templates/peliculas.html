@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>PELICULAS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+
+    </head>
+
+    <body>
+        <header class="header">
+
+            <div class="menu container">
+                <a href="#" class="logo">CHESTER</a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="{{ url_for('static', filename='IMG/logo3.png') }}" class="menu-icono" alt="menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="musica.html">MÚSICA</a></li>
+                        <li><a href="peliculas.html">PELÍCULAS</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-content container">
+                <h1>JOKER</h1>
+                <p>
+                    Joker (conocida como Guasón en Hispanoamérica) es una película de suspense psicológico estadounidense de 2019 dirigida y producida por Todd Phillips, quien coescribió el guion con Scott Silver. 
+                    La película, basada en personajes de DC Comics, está protagonizada por Joaquin Phoenix como El Joker y proporciona una historia de su origen alternativa para el personaje. 
+                    Ambientada en 1981, sigue a Arthur Fleck, un payaso fracasado y comediante cuyo descenso a la locura y el nihilismo inspira una violenta revolución contracultural contra los ricos en una Gotham City en decadencia. 
+                </p>
+                <p>
+                    Joker se estrenó en el 76° Festival Internacional de Cine de Venecia el 31 de agosto de 2019, donde ganó el León de Oro, y fue lanzada en los Estados Unidos el 4 de octubre de 2019. 
+                    La película polarizó a los críticos; mientras que la actuación de Phoenix, la dirección de Phillips, la partitura musical, la cinematografía y los valores de producción fueron elogiados, el tono oscuro, la descripción de la enfermedad mental y el manejo de la violencia dividieron las respuestas.
+                    Joker también generó preocupación por inspirar violencia en el mundo real: el cine donde se produjo el tiroteo masivo en 2012 en Aurora, Colorado, durante una proyección de The Dark Knight Rises se negó a mostrarla. A pesar de esto, la película se convirtió en un gran éxito de taquilla, estableciendo récords para un estreno en octubre. 
+                    Joker ha recaudado más de mil millones de dólares, por lo que es la primera película con clasificación R en hacerlo, la séptima película más taquillera de 2019 y la 32a película más taquillera de todos los tiempos.
+                    En junio de 2022, su director Todd Phillips confirmó una secuela.
+                </p>   
+                <center><img src="{{ url_for('static', filename='IMG/j4.jpg') }}" alt=""></center> <br>
+                
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/t433PEQGErc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>  
+            </div>
+        </header>
+        <section class="popular container">
+            <h2>PELICULAS FAVORITAS</h2>
+            <div class="popular-content">
+                <img src="{{ url_for('static', filename='IMG/scott.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/id4.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/bvs.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/aqua.jpeg') }}"alt="">
+                <img src="{{ url_for('static', filename='IMG/mib.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/shrek.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/shazam.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/bd2.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/s3.jpg') }}" alt="">
+
+            </div>
+        </section>
+        <main class="product container">
+
+            <h2>LISTA DE PELICULAS RECIENTEMENTE VISTAS</h2>
+
+            <div class="product-content">
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/flash.jpeg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>The Flash</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/flash" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/ba2.jpg') }}"alt="">
+                    <div class="product-txt">
+                        <h3>Black Adam</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/black-adam" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/constantine.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Constantine</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/constantine" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/tenet.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Tenet</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/tenet" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/batman.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>The Batman</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/batman-414906" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/mat3.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Matrix Resurrection</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/matrix-resurrecciones" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/ss.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>The Suicide Squad</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/el-escuadron-suicida" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/mos.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>El Hombre de Acero</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.cuevanahd.net/pelicula/el-hombre-de-acero/" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/elfaro.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>El Faro</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.cuevanahd.net/pelicula/el-faro/" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/hp.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Harry Potter y el Cadiz de Fuego</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/harry-potter-y-el-caliz-de-fuego" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/rf.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Rapidos y Furiosos 3</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://cuevana3.eu/pelicula/rapido-y-furioso-reto-tokio" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/it.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>IT</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.cuevana2espanol.icu/movies/it-eso" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </body>
+</html>

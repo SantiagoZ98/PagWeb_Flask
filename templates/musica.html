@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>MÚSICA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style1.css')}}">
+    </head>
+
+    <body>
+        <header class="header">
+
+            <div class="menu container">
+                <a href="#" class="logo">CHESTER</a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="{{ url_for('static', filename='IMG/logo3.png') }}" class="menu-icono" alt="menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="musica.html">MÚSICA</a></li>
+                        <li><a href="peliculas.html">PELÍCULAS</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-content container">
+                <h1>VERDE70</h1>
+                <p>
+                    Verde70 es una agrupación musical de Quito (Ecuador). Verde70 empezó en 1998 con Darío Castro (voz y guitarra), David Arízaga (batería) y Diego Saa (bajo y coros). 
+                    El grupo obtuvo fama a nivel nacional durante el año 2000, cuando lanzó su primer álbum, Alegre Depresión, el mismo que marcó un hito en la escena musical del país. 
+                    Para su segundo álbum, "Ruta Melancolía", se integra César Galarza (guitarra). En el 2012 a mediados de octubre vuelve la banda al ruedo, Verde70 una de las principales 
+                    y más reconocidas agrupaciones de la escena musical ecuatoriana, confirma su regreso para este año. Recargados con toda la energía y el rock&rol que siempre los caracterizó, 
+                    César Galarza (guitarrista- productor) y Darío Castro (compositor-vocalista) deciden retornar juntos nuevamente a los escenarios y presentarnos su más reciente propuesta musical. 
+                    Bastián Napolitano (batería) y Christian Dreyer (bajo y coros) son los nuevos talentos que serían presentados a finales de ese año, como los flamantes miembros oficiales de la banda. 
+                </p>
+                <p>
+                    La historia del grupo se remonta a 1997, cuando Darío Castro y David Arízaga, quienes eran compañeros del Colegio Francés de Quito y pertenecían a bandas diferentes, las cuales se desintegraron cuando salieron del colegio. 
+                    Una vez se graduaron, se unieron y empezaron a hacer música, llamando a su grupo "Alegre Depresión".
+                    En diciembre de 1998 consiguen reunir dinero y graban un demo con 7 temas propios, en un estudio pequeño. Este demo se convierte en una herramienta fundamental para mostrar su música y les abre puertas para tocar en festivales de la ciudad. 
+                    <br><br><center><img src="{{ url_for('static', filename='IMG/264x264 (1).jpg') }}" alt=""></center>
+                </p>   
+                
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/DbECwfOasIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>   
+            </div>
+        </header>
+        <section class="popular container">
+            <h2>BANDAS FAVORITAS</h2>
+            <div class="popular-content">
+                <img src="{{ url_for('static', filename='IMG/simpleplan.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/queen.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/thebeatles.jpg') }}"alt="">
+                <img src="{{ url_for('static', filename='IMG/sodaStereo.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/rollingstones.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/maroon.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/donmedardo.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/cruks.jpg') }}" alt="">
+                <img src="{{ url_for('static', filename='IMG/elefante.jpg') }}" alt="">
+
+            </div>
+        </section>
+        <main class="product container">
+
+            <h2>LISTA DE CANCIONES FAVORITAS</h2>
+
+            <div class="product-content">
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/aureobaqueiro.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>La vida es asi - Aureo Baqueiro</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=CkJQLdFIOG8" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/lady2.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Lady(Hear me tonight) - Modjo</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=vRB1MLGEHSc" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/lm.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Adios Amor - Luis Mateus</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=YAMm40WSrik" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/trebolclan.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>No le temas a él - Trebol Clan ft Hector y Tito</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=IVdZIc-d24Q" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/king.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Me volvi loco - King Kong Click</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=MsnJzE8Cbw0" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/papachango.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Negrita - Papa Chango</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=Aux_X-_jd6A" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/quevedo.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Quevedo - BZRP</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=A_g3lMcWVy0" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/ratablanca.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Mujer Amante - Rata Blanca</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=UIl27cgpKaw" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/kiss.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>I was made for lovin' you - Kiss</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=ZhIsAZO5gl0" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+                    <img src="{{ url_for('static', filename='IMG/adolescentes.jpg') }}" alt="">
+                    <div class="product-txt">
+                        <h3>Virgen - Adolescent's Orquesta</h3>
+                        <div class="price">
+                            <p>REPRODUCIR</p>
+                            <a href="https://www.youtube.com/watch?v=pz9O3UeM_o0" target="_blank">PLAY</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </body>
+
+</html>
